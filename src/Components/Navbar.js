@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import "./Header.scss";
 import { NavLink } from "react-router-dom";
 import { ImUser } from "react-icons/im";
 import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
