@@ -1,11 +1,8 @@
 import React from "react";
 import TypeWriterEffect from "react-typewriter-effect";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import {
-  FaFacebook,
-  FaInstagram,
   FaLinkedin,
-  FaTwitter,
   FaGithub,
   FaCloudDownloadAlt,
 } from "react-icons/fa";
@@ -84,10 +81,6 @@ const Home = () => {
               <span className="text">download CV</span>
               <FaCloudDownloadAlt className="icon d-icon"  />
             </a>
-            {/* <Link to="/contact" className="link" data-aos="fade-up"
-              data-aos-delay="100">
-              <span className="text">Contact me</span>
-            </Link> */}
           </div>
         </div>
       </section>
