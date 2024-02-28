@@ -8,7 +8,6 @@ import Footer from "./Components/Footer";
 import ErrorPage from "./Pages/ErrorPage";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Contact from "./Pages/Contact";
 import Header from "./Components/Header";
 
 
@@ -33,7 +32,6 @@ const Content = () =>{
                 <Route path="/about" element={<About />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/resume" element={<Resume />} />
-                {/* <Route path="/contact" element={<Contact />} /> */}
               </Route>
             </Route>
             <Route path="*" element={<ErrorPage />} />
