@@ -32,12 +32,12 @@ const Home = () => {
             <TypeWriterEffect
               textStyle={{
                 fontFamily: "Red Hat Display",
-                color: "#78cc6d",
+                color: "rgb(115 164 219)",
                 fontWeight: 500,
                 fontSize: "16px",
               }}
               startDelay={2000}
-              cursorColor="#78cc6d"   
+              cursorColor="rgb(115 164 219)"   
               multiText={["Developer", "Learner"]}
               multiTextDelay={1000}
               typeSpeed={50}
@@ -53,7 +53,7 @@ const Home = () => {
               aria-label="linkedin"
               
             >
-              <FaLinkedin data-aos="fade-up"
+              <FaLinkedin data-aos="fade-up" color="#0072b1"
               data-aos-delay="300" />
             </a>
             <a
@@ -142,7 +142,7 @@ const Wrapper = styled.section`
         top: 0;
         width: 100%;
         height: 52%;
-        background-image: url("/assets/mountain.jpg");
+        background-image: url("/assets/profile_bg.jpg");
         background-color: ${({ theme }) => theme.colors.white};
         background-repeat: no-repeat;
         background-position: 50% 0%;

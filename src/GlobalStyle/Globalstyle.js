@@ -80,12 +80,12 @@ span{
 }
 
 
-.card-section{
-  &::after{
-    background: rgb(49, 49, 58);
-    opacity: 0.3;
-  }
-}
+// .card-section{
+//   &::after{
+//     background: rgb(49, 49, 58);
+//     opacity: 0.3;
+//   }
+// }
 
 .app {
   position: relative;
@@ -246,7 +246,7 @@ input[type="submit"] {
 }
 
 .app.light .bg-bubbles li{
-    background-color: hsla(0,0%,100%,.1) !important;
+    background-color: lightblue !important;
   }
   .app.dark .bg-bubbles li{
     background-color: rgba(255, 255, 255, 0.02) !important;

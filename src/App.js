@@ -30,10 +30,10 @@ const App = () => {
       primary: "#fff"
     },
     highlight: {
-      primary: "#78cc6d",
+      primary: "rgb(115 164 219)",
       secondary: "#cccccc",
       rgb: {
-        primary: "120, 204, 109",
+        primary: "rgb(115 164 219)",
        secondary: "204, 204, 204"
       }
     },
@@ -46,8 +46,8 @@ const App = () => {
       primary: "#fff",
     },
     gradient: {
-      bgGradient: "linear-gradient(to bottom right, #50a3a2 0%, #78cc6d 100%)",
-      gradient1:"linear-gradient(135deg,  rgba(120, 204, 109, 0.4) 0%,  rgba(120, 204, 109, 0.012) 100%)",
+      bgGradient: "linear-gradient(to bottom right, #50a3a2 0%, rgb(115 164 219) 100%)",
+      gradient1:"linear-gradient(135deg,  rgba(120, 204, 109, 0.4) 0%,  rgb(115 164 219) 100%)  )",
       gradient2:"radial-gradient(ellipse at left,  #dddddd 0%,  rgba(255, 255, 255, 0) 70%)",
 
     },
@@ -76,7 +76,7 @@ const App = () => {
       primary: "#ff9800",
       secondary: "rgb(102, 102, 102)",
       rgb: {
-        primary: "255, 152, 0",
+        primary: "rgb(115 164 219)",
        secondary: "102, 102, 102"
       }
     },

@@ -86,7 +86,7 @@ const Wrapper = styled.div`
   .bg-bubbles li {
     position: absolute;
   }
-  .background.gradient,
+  .background.red,
   .bg-bubbles {
     top: 0;
     left: 0;

@@ -20,8 +20,6 @@ const Toggler = () => {
     useEffect(() => {
         toggle ? document.body.className = "dark-theme" : document.body.className = "light-theme" ;
     }, [toggle]);
-
-    console.log(isdarkMode)
   
   return (
     

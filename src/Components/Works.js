@@ -24,10 +24,10 @@ const Works = ({item}) => {
           <a href={item.href} className="link">
             <img
               src={item.imgsrc}
-              width="100"
-              height="100"
+              width="10"
+              height="10"
               alt="img"
-            //   loading="lazy"
+              loading="lazy"
             />
           </a>
         </div>

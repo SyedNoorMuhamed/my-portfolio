@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Services } from "../Config/Config";
+// import { Services } from "../Config/Config";
 import styled from "styled-components";
 
 function About() {
@@ -58,7 +58,7 @@ function About() {
             </div>
           </div>
   
-          <div className="content services">
+          {/* <div className="content services">
             <div className="title">
               <span className="first-word">My{" "}</span>Services
             </div>
@@ -81,8 +81,8 @@ function About() {
                     </div>
             ))}
             </div>
-          </div>
-          <div className="content hobby">
+          </div> */}
+          {/* <div className="content hobby">
             <div className="title">
               <span>Hobbies</span>
             </div>
@@ -91,22 +91,25 @@ function About() {
                 <div className="hobby-list">
                   <ul>
                     <li>
-                      <strong>Digital Art</strong>
+                      <strong>Learning</strong>
                     </li>
                     <li>
                       <strong>Coding</strong>
                     </li>
                     <li>
-                      <strong>Travelling</strong>
+                      <strong>Traveling</strong>
                     </li>
                     <li>
                       <strong>Reading</strong>
+                    </li>
+                    <li>
+                      <strong>Teaching</strong>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </Wrapper>
@@ -151,38 +154,38 @@ const Wrapper = styled.section`
   }
   
 }
-.content.hobby .row .col.col-6{
-    width: 100%;
-    &::before {
-      content: initial;
-    }
-    .hobby-list {
-        padding-top: 0;
-    
-        ul {
-          margin: 0;
-          padding: 0;
-          font-size: 0;
-          list-style: none;
-          display: flex;
-          flex-wrap: wrap;
-          li {
-            line-height: 1.6;
-            position: relative;
-            padding: 0 5px 0px 5px;
-            display: inline-block;
-            vertical-align: top;
-            flex-grow: 1;
-            text-align: left;
-            font-size: 0.89rem;
-            color: rgb(${({ theme }) => theme.title.secondary});
-            &:first-child {
-              padding-top: 0;
-            }
-          }
-        }
-      }
-}
+  // .content.hobby .row .col.col-6{
+  //     width: 100%;
+  //     &::before {
+  //       content: initial;
+  //     }
+  //     .hobby-list {
+  //         padding-top: 0;
+      
+  //         ul {
+  //           margin: 0;
+  //           padding: 0;
+  //           font-size: 0;
+  //           list-style: none;
+  //           display: flex;
+  //           flex-wrap: wrap;
+  //           li {
+  //             line-height: 1.6;
+  //             position: relative;
+  //             padding: 0 5px 0px 5px;
+  //             display: inline-block;
+  //             vertical-align: top;
+  //             flex-grow: 1;
+  //             text-align: left;
+  //             font-size: 0.89rem;
+  //             color: rgb(${({ theme }) => theme.title.secondary});
+  //             &:first-child {
+  //               padding-top: 0;
+  //             }
+  //           }
+  //         }
+  //       }
+  // }
 .content .row{
     &::before{
         content: normal;
@@ -202,40 +205,40 @@ const Wrapper = styled.section`
     width: 100%;
   }
 }
-.content.services .row .col.col-6 {
-  .service-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+// .content.services .row .col.col-6 {
+//   .service-item {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
 
-    .name {
-      font-weight: 500;
-      font-size: 1.06rem;
-      color: rgb(${({ theme }) => theme.title.primary});
-    }
-    .icon {
-      position: relative;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      border-radius: 50%;
-      justify-content: center;
-      background-color: ${({ theme }) => theme.highlight.primary};
-      font-size: 1.8rem;
-      color: ${({ theme }) => theme.colors.white};
-    }
-    .desc {
-      p {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-      }
-    }
-  }
+//     .name {
+//       font-weight: 500;
+//       font-size: 1.06rem;
+//       color: rgb(${({ theme }) => theme.title.primary});
+//     }
+//     .icon {
+//       position: relative;
+//       width: 60px;
+//       height: 60px;
+//       display: flex;
+//       align-items: center;
+//       border-radius: 50%;
+//       justify-content: center;
+//       background-color: ${({ theme }) => theme.highlight.primary};
+//       font-size: 1.8rem;
+//       color: ${({ theme }) => theme.colors.white};
+//     }
+//     .desc {
+//       p {
+//         margin: 0;
+//         padding: 0;
+//         text-align: center;
+//       }
+//     }
+//   }
 
-}
+// }
 
 
 

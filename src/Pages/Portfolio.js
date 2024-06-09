@@ -35,8 +35,6 @@ const Portfolio = () => {
     
   };
 
-  console.log(isActive)
-
   useEffect(()=>{
      setitems(ProjImg);
      setCollection([...new Set(ProjImg.map((item)=>item.category))])

@@ -40,7 +40,7 @@ function Resume() {
                         <div className="experience-desc">
                           <ul>
                             {val.desc.map((val) => (
-                              <li>{val}</li>
+                              <li key={val}>{val}</li>
                             ))}
                           </ul>
                         </div>
@@ -59,7 +59,7 @@ function Resume() {
                   {Education &&
                     Education.map((val, ind) => (
                       <div
-                        key={val.id}
+                        key={ind}
                         className={
                           val.date.includes("Present")
                             ? `${"resume"}-${"item"} ${"active"} ${"border"}-${"line"}-${"h"}`
@@ -85,7 +85,7 @@ function Resume() {
             <div className="row grid-items border-line-v">
               <ul className="grid-item">
                 {SkillSet && SkillSet.map((val, ind) => (
-                    <li key={val.id}>
+                    <li key={ind}>
                       <div className="cards">
                         <div className="card-img">
                           <img

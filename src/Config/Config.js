@@ -1,15 +1,15 @@
-import { BiCodeAlt } from 'react-icons/bi';
-import { IoBrushOutline } from 'react-icons/io5';
+// import { BiCodeAlt } from 'react-icons/bi';
+// import { IoBrushOutline } from 'react-icons/io5';
 
 export const SkillSet=[
     {
         id: "3",
-        name: "HTML 5",
+        name: "HTML",
         imgsrc: "images/HTML5.png"
     },
     {
         id: "4",
-        name: "CSS 3",
+        name: "CSS",
         imgsrc: "images/CSS3.png"
     },
     {
@@ -24,7 +24,7 @@ export const SkillSet=[
     },
     {
         id: "7",
-        name: "ReactJs",
+        name: "React",
         imgsrc: "images/React.png"
     },
     {
@@ -39,8 +39,8 @@ export const SkillSet=[
     },
     {
         id: "10",
-        name: "Node Js",
-        imgsrc: "images/nodejs.png"
+        name: "Angular",
+        imgsrc: "images/angular.png"
     },
     {
         id: "11",
@@ -56,6 +56,26 @@ export const SkillSet=[
         id: "15",
         name: "Github",
         imgsrc: "images/github.png"
+    },
+    {
+        id: "16",
+        name: ".NET",
+        imgsrc: "images/DotNet.png"
+    },
+    {
+        id: "17",
+        name: "Java",
+        imgsrc: "images/java.png"
+    },
+    {
+        id: "18",
+        name: "Node Js",
+        imgsrc: "images/nodejs.png"
+    },
+    {
+        id: "19",
+        name: "PostgreSQL",
+        imgsrc: "images/postgresql.svg"
     }
 
 ]
@@ -65,7 +85,7 @@ export const ProjImg = [
         id: "1",
         name: "Bubble Cloud",
         category: "react",
-        imgsrc: "projectImg/react/p_01.jpg",
+        imgsrc: "projectImg/react/bubble.png",
         href: "https://lively-kitten-d65e4b.netlify.app/"
     }
     
@@ -123,16 +143,16 @@ export const Education=[
     },
     
 ]
-export const Services=[
-    {
-        id: 1,
-         icon: <BiCodeAlt />,
-         name: "Web Development",
-         desc: "develop creative and responsive website layouts",
-    },
-    {   id: 2,
-        icon: <IoBrushOutline/>,
-        name: "Software Developer",
-        desc: "",
-    }
-]
+// export const Services=[
+//     {
+//         id: 1,
+//          icon: <BiCodeAlt />,
+//          name: "Web Development",
+//          desc: "develop creative and responsive website layouts",
+//     },
+//     {   id: 2,
+//         icon: <IoBrushOutline/>,
+//         name: "Software Developer",
+//         desc: "",
+//     }
+// ]
