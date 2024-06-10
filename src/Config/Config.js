@@ -85,7 +85,7 @@ export const ProjImg = [
         id: "1",
         name: "Bubble Cloud",
         category: "react",
-        imgsrc: "projectImg/react/bubble.png",
+        imgsrc: "projectImg/react/bubble1.jpg",
         href: "https://lively-kitten-d65e4b.netlify.app/"
     }
     

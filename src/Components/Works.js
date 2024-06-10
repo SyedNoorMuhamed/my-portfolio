@@ -24,8 +24,8 @@ const Works = ({item}) => {
           <a href={item.href} className="link">
             <img
               src={item.imgsrc}
-              width="10"
-              height="10"
+              width="10px"
+              height="10px"
               alt="img"
               loading="lazy"
             />
